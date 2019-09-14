@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Thể Loại"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:background="@color/grey_600"
+        android:textColor="@color/grey_900"
+        android:layout_height="56dp" />
+
+   <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_topic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
